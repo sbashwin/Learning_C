@@ -16,5 +16,10 @@ cat arrays.c
 echo "---------------------Output-------------------------"
 gcc arrays.c -o arrays
 ./arrays
-rm helloworld addition arrays
+echo "--------------------Strings--------------------------"
+cat strings.c
+echo "---------------------Output-------------------------"
+gcc strings.c -o strings
+./strings
+rm helloworld addition arrays strings
 
