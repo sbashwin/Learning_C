@@ -16,10 +16,19 @@ cat arrays.c
 echo "---------------------Output-------------------------"
 gcc arrays.c -o arrays
 ./arrays
+echo "****************************************************"
 echo "--------------------Strings--------------------------"
 cat strings.c
 echo "---------------------Output-------------------------"
 gcc strings.c -o strings
 ./strings
-rm helloworld addition arrays strings
+echo "****************************************************"
+echo "--------------------For Loops-----------------------"
+cat for_loop.c
+echo "---------------------Output-------------------------"
+gcc for_loop.c -o for_loop
+./for_loop
+echo "****************************************************"
+rm helloworld addition arrays strings for_loop
+
 
